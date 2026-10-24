@@ -14,11 +14,11 @@ Learn web application security and ethical web penetration testing while continu
 ## Phase 1: Web Fundamentals (Weeks 1–4)
 
 ### Week 1 — HTTP and Browser Fundamentals
-- [ ] Understand HTTP requests and responses.
-- [ ] Learn GET, POST, PUT, PATCH, and DELETE.
+- [x] Understand HTTP requests and responses.
+- [x] Learn GET, POST, PUT, PATCH, and DELETE.
 - [ ] Understand headers, status codes, cookies, and sessions.
-- [ ] Inspect API requests using Chrome DevTools.
-- [ ] Identify requests sent from React to Spring Boot.
+- [x] Inspect API requests using Chrome DevTools.
+- [x] Identify requests sent from React to Spring Boot.
 
 Resource: https://developer.mozilla.org/en-US/docs/Web/HTTP
 
