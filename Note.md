@@ -38,3 +38,15 @@ So if this origin is in the list of my allowed origins, the backend will allow a
 | `sudo apt update` | Checks for updates |
 | `sudo apt upgrade -y` | Downloads the newer version |
 
+## 4. Sudo Commands
+
+## Package Managers: Which One Should I Use?
+
+| What You Want | Tool |
+|---|---|
+| Ubuntu software (programs, system tools, libraries) | `apt` |
+| Apps from the Snap Store (e.g., VS Code) | `snap` |
+| JavaScript libraries for a project (e.g., Express) | `npm` |
+| Java libraries for a project | Maven or Gradle |
+| Node.js versions | `nvm` |
+| A downloaded `.deb` file | `apt install ./file.deb` |
