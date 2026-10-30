@@ -28,6 +28,8 @@ So if this origin is in the list of my allowed origins, the backend will allow a
 | `~` | Gets back you from the default directory |
 | `whoami` | Shows the current username |
 | `cd` | Puts you in a directory you want. For example: `cd Desktop` |
+| `mkdir` | Use this command if you were to create a new folder |
+| `rmdir` | Delete a folder |
 
 ---
 
