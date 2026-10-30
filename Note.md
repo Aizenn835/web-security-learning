@@ -30,6 +30,7 @@ So if this origin is in the list of my allowed origins, the backend will allow a
 | `cd` | Puts you in a directory you want. For example: `cd Desktop` |
 | `mkdir` | Use this command if you were to create a new folder |
 | `rmdir` | Delete a folder |
+| `-O`    | Output document ex.(wget -O vscode.deb https://visualstudio.com) it gets it and save it to a file called vscode.deb
 
 ---
 
