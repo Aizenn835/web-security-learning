@@ -1,22 +1,40 @@
-1.Access-Control-Allow-Credentials: true - this allows the browser to send a cookie inside browser cookie jar , this should be turn off if am using a jwt since am not using a browser cookie jar and am storing it to a localstorage
+# My Linux & CORS Notes
 
-2.Access-Control-Allow-Origin - its basically the allowed origin my backend will allow an api to send a response e.g(config.setAllowedOrigins(List.of("https://my-example-website.com")); so if this origin are in the list of my allowed origin, the backend will allow an api to make a response
+## 1. CORS
 
-Commands:
-  pwd - shows the current directory
-  
-  ls - shows the list of directory or files
-  
-  ls -l - this shows the list in a long way or more detailed
-  
-  ~ - this gets back you from the default directory
-  
-  whoami - this shows the current username
-  
-  cd - this puts you in a directory you want for ex(cd Desktop)
+### Access-Control-Allow-Credentials
+This allows the browser to send a cookie inside the browser cookie jar. This should be turned off if I'm using a JWT since I'm not using a browser cookie jar and am storing it in `localStorage`.
 
-Software commands:
+### Access-Control-Allow-Origin
+It's basically the allowed origin my backend will allow an API to send a response.
 
-  sudo apt update - checks for update
-  
-  sude apt upgrade -y - downloads the newer version
+Example:
+
+```java
+config.setAllowedOrigins(List.of("https://my-example-website.com"));
+```
+
+So if this origin is in the list of my allowed origins, the backend will allow an API to make a response.
+
+---
+
+## 2. Basic Linux Commands
+
+| Command | Description |
+|---|---|
+| `pwd` | Shows the current directory |
+| `ls` | Shows the list of directories or files |
+| `ls -l` | Shows the list in a long way or more detailed |
+| `~` | Gets back you from the default directory |
+| `whoami` | Shows the current username |
+| `cd` | Puts you in a directory you want. For example: `cd Desktop` |
+
+---
+
+## 3. Software Commands
+
+| Command | Description |
+|---|---|
+| `sudo apt update` | Checks for updates |
+| `sudo apt upgrade -y` | Downloads the newer version |
+
