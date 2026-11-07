@@ -31,7 +31,7 @@ Resource: https://developer.mozilla.org/en-US/docs/Web/HTTP
 Resource: https://missing.csail.mit.edu/
 
 ### Week 3 — SQL and Databases
-- [ ] Review SELECT, INSERT, UPDATE, and DELETE.
+- [X] Review SELECT, INSERT, UPDATE, and DELETE.
 - [ ] Understand how Spring Data JPA communicates with PostgreSQL.
 - [ ] Learn parameterized queries and prepared statements.
 - [ ] Understand the basics of SQL injection.
